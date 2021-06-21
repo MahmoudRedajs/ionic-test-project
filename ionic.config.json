@@ -1,5 +1,7 @@
 {
-  "name": "ionic-wordpress",
-  "integrations": {},
+  "name": "myApp",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

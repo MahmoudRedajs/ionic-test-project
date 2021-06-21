@@ -8,10 +8,10 @@ const routes: Routes = [
     path: '',
     component: EmployeesPage
   },
-  {
+  /* {
     path: ':employeeid',
     loadChildren: () => import('./employee-info/employee-info.module').then( m => m.EmployeeInfoPageModule)
-  }
+  } */
 ];
 
 @NgModule({
